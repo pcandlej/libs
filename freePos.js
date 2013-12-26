@@ -1,3 +1,10 @@
+/**
+ +---------------------------------------------------------
+ * item auto fixed top where scroll down
+ +---------------------------------------------------------
+ * @author pierre
+ +---------------------------------------------------------
+ */
 function FreePos (opts) {
     function move() {
         scrollTop = document.documentElement.scrollTop | document.body.scrollTop;
