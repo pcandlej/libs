@@ -1,5 +1,9 @@
 /**
+ +---------------------------------------------------------
+ * item auto fixed top where scroll down
+ +---------------------------------------------------------
  * @author pierre
+ +---------------------------------------------------------
  */
 function FreePos (opts) {
     function move() {
@@ -9,7 +13,7 @@ function FreePos (opts) {
         if ($.browser.version == '6.0') {
             0 > (+orgTop) ? objFx.show().css({position:'absolute',top:scrollTop,left:(+orgLeft)+'px'}) : objFx.hide();
         } else {
-            0 > (+orgTop) ? objFx.show().css({position:'fixed',top:'0px',left:(+orgLeft)+'px'}) : objFx.hide();
+            0 > (+orgTop) ? objFx.show().css({poisition:'fixed',top:'0px',left:(+orgLeft)+'px'}) : objFx.hide();
         }
     }
     var objAb = opts.objAb,
