@@ -1,3 +1,6 @@
+/**
+ * @author pierre
+ */
 function FreePos (opts) {
     function move() {
         scrollTop = document.documentElement.scrollTop | document.body.scrollTop;
